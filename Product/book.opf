@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package unique-identifier="pub-id" version="3.0" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="pub-id">urn:uuid:c5929f72-b2e7-4104-b353-012199fc1e14</dc:identifier>
+    <dc:title>MINIMUM SAMPLE</dc:title>
+    <dc:language>ja-JP</dc:language>
+    <meta property="dcterms:modified">2019-09-23T12:00:00Z</meta>
+  </metadata>
+
+  <manifest>
+    <item id="cover-front" href="./xhtmls/cover-front.xhtml" media-type="application/xhtml+xml" properties="svg" />
+    <item id="nav" href="./xhtmls/nav.xhtml" properties="nav" media-type="application/xhtml+xml" />
+    <item id="chap1" href="./xhtmls/chap1.xhtml" media-type="application/xhtml+xml" />
+    <item id="cover-back" href="./xhtmls/cover-back.xhtml" media-type="application/xhtml+xml" properties="svg" />
+
+    <item id="img-cover-front" href="./images/cover-front.jpg" properties="cover-image" media-type="image/jpeg" />
+    <item id="img-chap1" href="./images/chap1.png" media-type="image/png" />
+    <item id="img-cover-back" href="./images/cover-back.jpg" media-type="image/jpeg" />
+  </manifest>
+
+  <spine page-progression-direction="rtl">
+    <itemref idref="cover-front" />
+    <itemref idref="nav" />
+    <itemref idref="chap1" />
+    <itemref idref="cover-back" />
+  </spine>
+</package>
