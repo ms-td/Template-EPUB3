@@ -38,7 +38,7 @@ usage_and_exit(){
         -i |--init
             Initialize <directory>.
         -t |--tool <epubcheck.jar>
-            EPUB check tool.
+            EPUB check by tool.
     Version : 2019-09-23_15:15:44 0.01
     LICENSE : CC0
               This is a public-domain software (CC0). It means that

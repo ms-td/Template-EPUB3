@@ -2,13 +2,16 @@
 
 ## Overview
 
+This repository is a file-set of EPUB3.
+In addition, a shell script for generation is included.
+
 ## Requirement
 
 - Linux
 - zip (shell command.)
 - [epubcheck](https://github.com/w3c/epubcheck/releases)
 
-## Usage
+## Usage shell script
 
 ### `$> epubgen.sh -i <Directory>`
 
@@ -46,15 +49,10 @@ This action zip the following:
 - css files in styles.
 - any files in images.
 
-## Install
-
-1. Download or Copy `epubgen.sh` to your machine.
-2. Give the right of execution for `epubgen.sh`.
-3. End.
-
 ## Licence
 
-[UNLICNSE](https://unlicense.org/)
+- About what I made [CC0 (publick domain)](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+- Tool/ epubcheck [BSD 3-Clause](https://www.tldrlegal.com/l/bsd3)
 
 ## Author
 
